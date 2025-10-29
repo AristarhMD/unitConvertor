@@ -11,23 +11,29 @@
     <div class="container">
       <header>
         <h1>Metric/Imperial Unit Conversion</h1>
-        <input type="number" class="initial-unit" />
+        <input
+          type="number"
+          class="initial-unit"
+          step="1"
+          aria-label="Input for inserting data for converting"
+          id="input-value"
+        />
         <button class="action-btn">Convert</button>
       </header>
       <section class="converting-data">
-        <div>
+        <div class="metric-data">
           <h2>Lenght (Meter/Feet)</h2>
-          <p class="lenght"></p>
+          <p class="lenght fs">aaaaaaa</p>
         </div>
 
-        <div>
+        <div class="metric-data">
           <h2>Volume (Liters/Gallons)</h2>
-          <p class="volume"></p>
+          <p class="volume fs">aaaaaaaa</p>
         </div>
 
-        <div>
+        <div class="metric-data">
           <h2>Mass (Kilograms/Pounds)</h2>
-          <p class="mass"></p>
+          <p class="mass fs">aaaaaaa</p>
         </div>
       </section>
     </div>
