@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Importing Styles -->
     <link rel="stylesheet" href="styles.css" />
+    <!-- CDN Font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Importing JS -->
     <script src="index.js" defer></script>
     <title>Unit Scale</title>
   </head>
@@ -11,6 +21,14 @@
     <div class="container">
       <header>
         <h1>Metric/Imperial Unit Conversion</h1>
+        <div class="mode-toggler">
+          <div class="mode dark-mode">
+            <i class="fa-solid fa-moon"></i>
+          </div>
+          <div class="mode light-mode hide">
+            <i class="fa-regular fa-sun"></i>
+          </div>
+        </div>
         <input
           type="number"
           class="initial-unit"
@@ -23,17 +41,17 @@
       <section class="converting-data">
         <div class="metric-data">
           <h2>Lenght (Meter/Feet)</h2>
-          <p class="lenght fs">aaaaaaa</p>
+          <p class="lenght fs"></p>
         </div>
 
         <div class="metric-data">
           <h2>Volume (Liters/Gallons)</h2>
-          <p class="volume fs">aaaaaaaa</p>
+          <p class="volume fs"></p>
         </div>
 
         <div class="metric-data">
           <h2>Mass (Kilograms/Pounds)</h2>
-          <p class="mass fs">aaaaaaa</p>
+          <p class="mass fs"></p>
         </div>
       </section>
     </div>
